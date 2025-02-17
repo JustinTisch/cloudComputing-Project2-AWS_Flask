@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Information</title>
+</head>
+<body>
+    <h2>User Details</h2>
+    <p><strong>First Name:</strong> {{ user[0] }}</p>
+    <p><strong>Last Name:</strong> {{ user[1] }}</p>
+    <p><strong>Email:</strong> {{ user[2] }}</p>
+    <p><strong>Address:</strong> {{ user[3] }}</p>
+    <a href="{{ url_for('logout') }}">Logout/Re-login</a>
+</body>
+</html>
